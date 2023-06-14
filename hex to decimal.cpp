@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> 
 #include <math.h>
 #include <string.h>
 int main()
@@ -23,7 +23,7 @@ int main()
      */
     for(i=0; hex[i]!='\0'; i++)
     {
- 
+			
         /* Find the decimal representation of hex[i] */
         if(hex[i]>='0' && hex[i]<='9')
         {
